@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="JBK Project Suite">
+    <!-- Add Listener Here -->
+    <listeners>
+        <listener class-name="com.JBK.Project_Listner.MyListener"/>
+    </listeners>
+    <test name="Search Functionality Test">
+        <!-- Passing Parameters -->
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="https://javabykiran.in/other/CC/"/>
+        <classes>
+           <!-- <class name="com.TestCase.LandingPageTestCases"/> -->
+            <class name="com.TestCase.LoginPageTestCases" /> 
+            <class name="com.TestCase.RegisterPageTestCases"></class>
+			
+        </classes>
+    </test>
+</suite>
+
