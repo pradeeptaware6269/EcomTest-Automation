@@ -8,13 +8,16 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="url" value="https://javabykiran.in/other/CC/"/>
     <classes>
-      <class name="com.TestCase.LoginPageTestCases">
+      <class name="com.TestCase.RegisterPageTestCases">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testLogin" invocation-numbers="0"/>
+          <include name="verifyCheckboxes"/>
+          <include name="verifyMyStore"/>
+          <include name="openRegisterPage"/>
+          <include name="testRegister" invocation-numbers="2 3"/>
         </methods>
-      </class> <!-- com.TestCase.LoginPageTestCases -->
+      </class> <!-- com.TestCase.RegisterPageTestCases -->
     </classes>
   </test> <!-- Search Functionality Test(failed) -->
 </suite> <!-- Failed suite [JBK Project Suite] -->

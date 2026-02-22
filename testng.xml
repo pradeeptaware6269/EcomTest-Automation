@@ -11,8 +11,8 @@
         <parameter name="browser" value="chrome"/>
         <parameter name="url" value="https://javabykiran.in/other/CC/"/>
         <classes>
-           <!-- <class name="com.TestCase.LandingPageTestCases"/> -->
-            <class name="com.TestCase.LoginPageTestCases" /> 
+           <!-- <class name="com.TestCase.LandingPageTestCases"/> 
+            <class name="com.TestCase.LoginPageTestCases" /> -->
             <class name="com.TestCase.RegisterPageTestCases"></class>
 			
         </classes>

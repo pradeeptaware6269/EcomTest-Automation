@@ -1,16 +1,24 @@
 package com.TestCase;
 
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.JBK.Project_Base.BaseClass;
+import com.JBK.project_Pages.LoginPage;
 
 public class LoginPageTestCases extends BaseClass {
 
+	@BeforeMethod
+	public void setup() {
+		lp.clickLogin();
+	}
+
 	@Test(dataProvider = "loginData")
 	public void testLogin(String userName, String passWord, String istrue) {
-		lp.clickLogin();
+
 		login.enterEmail(userName);
 		login.enterPassword(passWord);
 		login.clickLigin();
@@ -43,6 +51,25 @@ public class LoginPageTestCases extends BaseClass {
 				{ "pradeep@gmail.com", "pradeep@123", "3" }, { "", "", "4" } };
 
 		return data;
+	}
+
+	@Test(priority = 1, enabled = true)
+	public void verifyRegisterBtn() {
+		WebElement register = LoginPage.getRegister();
+		Assert.assertTrue(register.isEnabled());
+		Assert.assertTrue(register.isDisplayed());
+	}
+
+	@Test(priority = 2, enabled = true)
+	public void verifySmart() {
+		login.clickSmart();
+		Assert.assertTrue(login.smartSuccessMSG().contains("smart"));
+	}
+
+	@Test(priority = 3, enabled = true)
+	public void verifySaleItem() {
+		login.clickSaleItem();
+		Assert.assertTrue(login.saleItemMSG().contains("Sale Items"));
 	}
 
 }
