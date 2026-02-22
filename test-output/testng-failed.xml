@@ -18,6 +18,21 @@
           <include name="testRegister" invocation-numbers="2 3"/>
         </methods>
       </class> <!-- com.TestCase.RegisterPageTestCases -->
+      <class name="com.TestCase.LoginPageTestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifySaleItem"/>
+        </methods>
+      </class> <!-- com.TestCase.LoginPageTestCases -->
+      <class name="com.TestCase.LandingPageTestCases">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="searchProduct" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.TestCase.LandingPageTestCases -->
     </classes>
   </test> <!-- Search Functionality Test(failed) -->
 </suite> <!-- Failed suite [JBK Project Suite] -->

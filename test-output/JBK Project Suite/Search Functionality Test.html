@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Search Functionality Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/4/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>29/7/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 22 15:45:01 IST 2026</td>
+<td>Started on:</td><td>Sun Feb 22 22:06:32 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>119 seconds (119821 ms)</td>
+<tr><td>Total time:</td><td>141 seconds (141920 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,124 +76,6 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.TestCase.RegisterPageTestCases.verifyCheckboxes()'><b>verifyCheckboxes</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
-<td><div><pre>java.lang.AssertionError: Terms checkbox 1 Is already Selected expected [true] but found [false]
-	at com.TestCase.RegisterPageTestCases.verifyCheckboxes(RegisterPageTestCases.java:118)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace426435961", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace426435961'><pre>java.lang.AssertionError: Terms checkbox 1 Is already Selected expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.TestCase.RegisterPageTestCases.verifyCheckboxes(RegisterPageTestCases.java:118)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
-<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Sumit, Thakre, sumit@gmail.com, 8421077165, 98765432101, Test@123, 4</td>
-<td><div><pre>java.lang.IllegalArgumentException: Mobile number must be exactly 10 digits
-	at com.JBK.project_Pages.RegisterPage.mobile(RegisterPage.java:135)
-	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:27)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1582277082", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1582277082'><pre>java.lang.IllegalArgumentException: Mobile number must be exactly 10 digits
-	at com.JBK.project_Pages.RegisterPage.mobile(RegisterPage.java:135)
-	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:27)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
-<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Amit, wagh, amit@gmail.com, 84210771, 9876543210, Test@123, 3</td>
-<td><div><pre>java.lang.IllegalArgumentException: Phone number must be exactly 10 digits
-	at com.JBK.project_Pages.RegisterPage.phone(RegisterPage.java:123)
-	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:26)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1275011461", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1275011461'><pre>java.lang.IllegalArgumentException: Phone number must be exactly 10 digits
-	at com.JBK.project_Pages.RegisterPage.phone(RegisterPage.java:123)
-	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:26)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
 <td title='com.TestCase.RegisterPageTestCases.verifyMyStore()'><b>verifyMyStore</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;box-navigation&quot;]/section/ul/li[1]/a/svg/use&quot;}
   (Session info: chrome=145.0.7632.76)
@@ -201,9 +83,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86f93d7803f3fb7ff334bf057d5bb981, findElement {value=//*[@id=&quot;box-navigation&quot;]/section/ul/li[1]/a/svg/use, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57816}, goog:processID: 3012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57816/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86f93d7803f3fb7ff334bf057d5bb981
+Command: [4f464e531ba9223f73106a2807f2dbc4, findElement {using=xpath, value=//*[@id=&quot;box-navigation&quot;]/section/ul/li[1]/a/svg/use}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57208}, goog:processID: 15592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57208/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f464e531ba9223f73106a2807f2dbc4
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -221,16 +103,16 @@ Session ID: 86f93d7803f3fb7ff334bf057d5bb981
 	at com.JBK.project_Pages.RegisterPage.clickMyStore(RegisterPage.java:57)
 	at com.TestCase.RegisterPageTestCases.verifyMyStore(RegisterPageTestCases.java:142)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace108012266", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace108012266'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;box-navigation&quot;]/section/ul/li[1]/a/svg/use&quot;}
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1057778492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1057778492'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;box-navigation&quot;]/section/ul/li[1]/a/svg/use&quot;}
   (Session info: chrome=145.0.7632.76)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [86f93d7803f3fb7ff334bf057d5bb981, findElement {value=//*[@id=&quot;box-navigation&quot;]/section/ul/li[1]/a/svg/use, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57816}, goog:processID: 3012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57816/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86f93d7803f3fb7ff334bf057d5bb981
+Command: [4f464e531ba9223f73106a2807f2dbc4, findElement {using=xpath, value=//*[@id=&quot;box-navigation&quot;]/section/ul/li[1]/a/svg/use}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57208}, goog:processID: 15592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57208/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4f464e531ba9223f73106a2807f2dbc4
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -277,8 +159,296 @@ Session ID: 86f93d7803f3fb7ff334bf057d5bb981
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>5</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
+<td>3</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.searchProduct()'><b>searchProduct</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: Mobile, 1</td>
+<td><div><pre>java.lang.AssertionError: Valid product search failed expected [Product Found,Search results] but found [Search results]
+	at com.TestCase.LandingPageTestCases.searchProduct(LandingPageTestCases.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1883237069", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1883237069'><pre>java.lang.AssertionError: Valid product search failed expected [Product Found,Search results] but found [Search results]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.TestCase.LandingPageTestCases.searchProduct(LandingPageTestCases.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Sumit, Thakre, sumit@gmail.com, 8421077165, 98765432101, Test@123, 4</td>
+<td><div><pre>java.lang.IllegalArgumentException: Mobile number must be exactly 10 digits
+	at com.JBK.project_Pages.RegisterPage.mobile(RegisterPage.java:135)
+	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace482090462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace482090462'><pre>java.lang.IllegalArgumentException: Mobile number must be exactly 10 digits
+	at com.JBK.project_Pages.RegisterPage.mobile(RegisterPage.java:135)
+	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.verifyCheckboxes()'><b>verifyCheckboxes</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
+<td><div><pre>java.lang.AssertionError: Terms checkbox 1 Is already Selected expected [true] but found [false]
+	at com.TestCase.RegisterPageTestCases.verifyCheckboxes(RegisterPageTestCases.java:118)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace351108575", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace351108575'><pre>java.lang.AssertionError: Terms checkbox 1 Is already Selected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at com.TestCase.RegisterPageTestCases.verifyCheckboxes(RegisterPageTestCases.java:118)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.searchProduct()'><b>searchProduct</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: laptop, 1</td>
+<td><div><pre>java.lang.AssertionError: Valid product search failed expected [Product Found,Search results] but found [Search results]
+	at com.TestCase.LandingPageTestCases.searchProduct(LandingPageTestCases.java:53)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace262815725", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace262815725'><pre>java.lang.AssertionError: Valid product search failed expected [Product Found,Search results] but found [Search results]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at com.TestCase.LandingPageTestCases.searchProduct(LandingPageTestCases.java:53)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Amit, wagh, amit@gmail.com, 84210771, 9876543210, Test@123, 3</td>
+<td><div><pre>java.lang.IllegalArgumentException: Phone number must be exactly 10 digits
+	at com.JBK.project_Pages.RegisterPage.phone(RegisterPage.java:123)
+	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:26)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace360528453", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace360528453'><pre>java.lang.IllegalArgumentException: Phone number must be exactly 10 digits
+	at com.JBK.project_Pages.RegisterPage.phone(RegisterPage.java:123)
+	at com.TestCase.RegisterPageTestCases.testRegister(RegisterPageTestCases.java:26)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LoginPageTestCases.verifySaleItem()'><b>verifySaleItem</b><br>Test class: com.TestCase.LoginPageTestCases</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main_content&quot;]/h2&quot;}
+  (Session info: chrome=145.0.7632.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7611222d2d5e775bdb0c0e7d6ff71748, findElement {using=xpath, value=//*[@id=&quot;main_content&quot;]/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65211}, goog:processID: 9832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65211/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7611222d2d5e775bdb0c0e7d6ff71748
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+	at com.JBK.project_Pages.LoginPage.saleItemMSG(LoginPage.java:34)
+	at com.TestCase.LoginPageTestCases.verifySaleItem(LoginPageTestCases.java:72)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1106840336", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1106840336'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;main_content&quot;]/h2&quot;}
+  (Session info: chrome=145.0.7632.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7611222d2d5e775bdb0c0e7d6ff71748, findElement {using=xpath, value=//*[@id=&quot;main_content&quot;]/h2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65211}, goog:processID: 9832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65211/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7611222d2d5e775bdb0c0e7d6ff71748
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.getText(Unknown Source)
+	at com.JBK.project_Pages.LoginPage.saleItemMSG(LoginPage.java:34)
+	at com.TestCase.LoginPageTestCases.verifySaleItem(LoginPageTestCases.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>com.TestCase.LoginPageTestCases@6ab778a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -289,50 +459,150 @@ Session ID: 86f93d7803f3fb7ff334bf057d5bb981
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, prathemesh, More, pathu@gmail.com, 8421077165, 9876543210, 12345, 6</td>
-<td></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
-<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Ashitosh, Patil, ashugmail.com, 8421077165, 9876543210, Test@123, 2</td>
-<td></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
-<td title='com.TestCase.RegisterPageTestCases.verifyRegisterButton()'><b>verifyRegisterButton</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
-<td></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
-<td title='com.TestCase.RegisterPageTestCases.verifyResetButton()'><b>verifyResetButton</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
-<td></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
-<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Pradeep, Taware, pradeep@gmail.com, 8421077165, 9876543210, Test@123, 1</td>
+<td title='com.TestCase.LandingPageTestCases.subscribedMail()'><b>subscribedMail</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: automation@test.com, 1</td>
 <td></td>
 <td>1</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
 <tr>
-<td title='com.TestCase.RegisterPageTestCases.verifyRegisterElement()'><b>verifyRegisterElement</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
+<td title='com.TestCase.LandingPageTestCases.verifySmartProduct()'><b>verifySmartProduct</b><br>Test class: com.TestCase.LandingPageTestCases</td>
 <td></td>
 <td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
-<tr>
-<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, , nale, nale@gmail.com, 8421077165, 9876543210, Test@123, 5</td>
-<td></td>
-<td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
 <tr>
 <td title='com.TestCase.RegisterPageTestCases.verifyLoginHereLink()'><b>verifyLoginHereLink</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
 <td></td>
 <td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.verifyCubeCart()'><b>verifyCubeCart</b><br>Test class: com.TestCase.LandingPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.verifyRegisterElement()'><b>verifyRegisterElement</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.subscribedMail()'><b>subscribedMail</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: demo12234, 2</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Pradeep, Taware, pradeep@gmail.com, 8421077165, 9876543210, Test@123, 1</td>
+<td></td>
+<td>2</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, Ashitosh, Patil, ashugmail.com, 8421077165, 9876543210, Test@123, 2</td>
+<td></td>
+<td>1</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, prathemesh, More, pathu@gmail.com, 8421077165, 9876543210, 12345, 6</td>
+<td></td>
+<td>1</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.verifyRegisterButton()'><b>verifyRegisterButton</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.testRegister()'><b>testRegister</b><br>Test class: com.TestCase.RegisterPageTestCases<br>Parameters: Account, , nale, nale@gmail.com, 8421077165, 9876543210, Test@123, 5</td>
+<td></td>
+<td>1</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.subscribedMail()'><b>subscribedMail</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: test@gmail.com, 1</td>
+<td></td>
+<td>1</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.verifyLinkedin()'><b>verifyLinkedin</b><br>Test class: com.TestCase.LandingPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LoginPageTestCases.testLogin()'><b>testLogin</b><br>Test class: com.TestCase.LoginPageTestCases<br>Parameters: , , 4</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LoginPageTestCases@6ab778a</td></tr>
+<tr>
+<td title='com.TestCase.RegisterPageTestCases.verifyResetButton()'><b>verifyResetButton</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LoginPageTestCases.verifyRegisterBtn()'><b>verifyRegisterBtn</b><br>Test class: com.TestCase.LoginPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LoginPageTestCases@6ab778a</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.verifyTwitter()'><b>verifyTwitter</b><br>Test class: com.TestCase.LandingPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
 <tr>
 <td title='com.TestCase.RegisterPageTestCases.verifyHomeElement()'><b>verifyHomeElement</b><br>Test class: com.TestCase.RegisterPageTestCases</td>
 <td></td>
 <td>0</td>
-<td>com.TestCase.RegisterPageTestCases@49438269</td></tr>
+<td>com.TestCase.RegisterPageTestCases@6a2f6f80</td></tr>
+<tr>
+<td title='com.TestCase.LoginPageTestCases.testLogin()'><b>testLogin</b><br>Test class: com.TestCase.LoginPageTestCases<br>Parameters: test12321d, wrongpass, 2</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LoginPageTestCases@6ab778a</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.searchProduct()'><b>searchProduct</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: 12345, 2</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LoginPageTestCases.verifySmart()'><b>verifySmart</b><br>Test class: com.TestCase.LoginPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LoginPageTestCases@6ab778a</td></tr>
+<tr>
+<td title='com.TestCase.LoginPageTestCases.testLogin()'><b>testLogin</b><br>Test class: com.TestCase.LoginPageTestCases<br>Parameters: iranna@gmail.com, Iranna@123, 1</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LoginPageTestCases@6ab778a</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.searchProduct()'><b>searchProduct</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: gmail.com, 2</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.verifyFacebook()'><b>verifyFacebook</b><br>Test class: com.TestCase.LandingPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LoginPageTestCases.testLogin()'><b>testLogin</b><br>Test class: com.TestCase.LoginPageTestCases<br>Parameters: pradeep@gmail.com, pradeep@123, 3</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LoginPageTestCases@6ab778a</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.searchProduct()'><b>searchProduct</b><br>Test class: com.TestCase.LandingPageTestCases<br>Parameters: rocket, 2</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.verifyVimeo()'><b>verifyVimeo</b><br>Test class: com.TestCase.LandingPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.verifySaleItem()'><b>verifySaleItem</b><br>Test class: com.TestCase.LandingPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
+<tr>
+<td title='com.TestCase.LandingPageTestCases.verifyBasket()'><b>verifyBasket</b><br>Test class: com.TestCase.LandingPageTestCases</td>
+<td></td>
+<td>0</td>
+<td>com.TestCase.LandingPageTestCases@1ff4931d</td></tr>
 </table><p>
 </body>
 </html>
